@@ -22,6 +22,6 @@
         dest: "{{compose_directory}}/{{item}}"
 
     - name: Create and start services
-      shell: docker-compose up -d --remove-orphans
+      shell: docker compose up -d --remove-orphans
       args:
         chdir: "{{ compose_directory }}"
