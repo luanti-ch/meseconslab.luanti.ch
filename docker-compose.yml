@@ -51,7 +51,7 @@ services:
     - "traefik.http.routers.meseconslab-luanti-ch.tls.certresolver=default"
 
  meseconslab-redirect:
-  image: nginx:1.28.0
+  image: nginx:1.29.0
   networks:
    - terminator
    - default
