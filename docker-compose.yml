@@ -2,7 +2,7 @@ version: "2"
 
 services:
  minetest:
-  image: ghcr.io/luanti-org/luanti:5.15.1
+  image: ghcr.io/luanti-org/luanti:5.15.2
   restart: always
   user: root
   volumes:
