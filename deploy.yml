@@ -25,3 +25,4 @@
       shell: docker compose up -d --remove-orphans
       args:
         chdir: "{{ compose_directory }}"
+
