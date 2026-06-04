@@ -1,7 +1,7 @@
 version: "2"
 
 services:
- minetest:
+ luanti-meseconslab:
   image: ghcr.io/luanti-org/luanti:5.16.1
   restart: always
   user: root
