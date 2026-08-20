@@ -2,7 +2,7 @@ version: "2"
 
 services:
  luanti-meseconslab:
-  image: ghcr.io/luanti-org/luanti:5.16.1
+  image: ghcr.io/luanti-org/luanti:5.17.0
   restart: always
   user: root
   volumes:
